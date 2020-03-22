@@ -11,6 +11,8 @@ To account for this phenomenon I primarily offer 3 similar and mutually-inclusiv
 <li>Lastly, it could also represent investors hedging their positions. After a large gap up or down, investors might be more wary about continuing to hold a certain position as the market's momentum could be decaying; thus, this could potentially prompt investors to hedge their positions in the opposite direction to prevent large losses. This explanation is particularly plausible because we can observe that most of the market-open mean-reversion movements are still quite small compared to the gaps themselves.</li>
 </ol>
 
+<img src="V1/gap.png" alt="Gap Explanation"></img>
+
 <h3>Strategy Implementation </h3>
 The basic idea was to buy $SPXL (3x leveraged $SPY) whenever $SPY gapped down and buy $SPXS (3x inverse leveraged $SPY) whenever $SPY gapped up. I would buy an amount that was directly proportional to the percentage change in $SPY from the previous adjusted market close to market open.
 
