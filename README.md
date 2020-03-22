@@ -1,4 +1,4 @@
-#Corona_Gap_Trader
+# Corona_Gap_Trader
 
 
 <h3>Strategy Inspiration </h3>
@@ -18,8 +18,8 @@ The basic idea was to buy $SPXL (3x leveraged $SPY) whenever $SPY gapped down an
 The initial version of the algorithm can be thought of as a simplistic implementation of the idea. I consolidated data into 4-minute segment bars and the strategy would liquidate all assets whenever there was a consolidated bar that suggested a move in the opposite direction OR at market close.
 
 <h3>Alpha V1 Evaluation </h3>
-![Stats Graph](https://https://github.com/Marblez/Corona_Gap_Trader/blob/master/V1/stats.png "Stats")
+![Stats Graph](https://https://github.com/Marblez/Corona_Gap_Trader/blob/master/V1/stats.png)
 The results of the V1 were surprisingly good for February 2020 - March 2020, boasting a monthly return approaching 5.5% (101% APR) and a 7.2 sharpe ratio (wtf).
-![Month Test](https://https://github.com/Marblez/Corona_Gap_Trader/blob/master/V1/monthtest.png "Test over month")
+![Month Test](https://https://github.com/Marblez/Corona_Gap_Trader/blob/master/V1/monthtest.png)
 However, I attributed these results to the fact that the model was highly overfitted to the Corona trading period. If we conduct the backtest over the course of a year we will see that the algorithm performs really poorly until the mid-February Corona-incited regime shift.
-![Year Test](https://https://github.com/Marblez/Corona_Gap_Trader/blob/master/V1/yeartest.png "Test over year")
+![Year Test](https://https://github.com/Marblez/Corona_Gap_Trader/blob/master/V1/yeartest.png)
