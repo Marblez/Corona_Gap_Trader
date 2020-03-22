@@ -4,13 +4,13 @@
 <h3>Strategy Inspiration </h3>
 The rapid US credit spread increase and the drop of the traditionally inversely correlated S&P500 Index (SPY) in mid February 2020 marked the advent of a regime shift in the market. There was a sharp increase in volatility and trade volume; despite the strong downwards momentum in the market, I noticed that there was a recurring mean-reversion pattern that occurred in market open. If $SPY gapped down, the index would mean-revert in the inverse direction at market open more often than not; likewise, if $SPY gapped up, it would mean-revert downward.
 
-To account for this phenomenon I primarily offer 3 similar and mutually-inclusive explanations:
+<p>To account for this phenomenon I primarily offer 3 similar and mutually-inclusive explanations:
 <ol>
 <li>Firstly, it could be a result of people covering for their positions. This explains the sharpness of the mean-reversion trend as investors and traders are likely scrambling to cover their puts or calls. </li>
 <li>Secondly and akin to the first reason, it could represent investors getting margin-called: this is especially true in cases where the after-hours/pre-market gap is extremely large: leveraged investors who held positions inverse to the direction of the gap could be forced to cut their losses ASAP.</li>
 <li>Lastly, it could also represent investors hedging their positions. After a large gap up or down, investors might be more wary about continuing to hold a certain position as the market's momentum could be decaying; thus, this could potentially prompt investors to hedge their positions in the opposite direction to prevent large losses. This explanation is particularly plausible because we can observe that most of the market-open mean-reversion movements are still quite small compared to the gaps themselves.</li>
 </ol>
-
+</p>
 <img src="V1/gap.png" alt="Gap Explanation"></img>
 
 <h3>Strategy Implementation </h3>
