@@ -2,7 +2,8 @@
 
 
 <h3>Strategy Inspiration </h3>
-The rapid US credit spread increase and the drop of the traditionally inversely correlated S&P500 Index (SPY) in mid February 2020 marked the advent of a regime shift in the market. There was a sharp increase in volatility and trade volume; despite the strong downwards momentum in the market, I noticed that there was a recurring mean-reversion pattern that occurred in market open. If $SPY gapped down, the index would mean-revert in the inverse direction at market open more often than not; likewise, if $SPY gapped up, it would mean-revert downward.
+The rapid US credit spread increase and the drop of the traditionally inversely correlated S&P500 Index (SPY) in mid February 2020 marked the advent of a regime shift in the market. There was a sharp increase in volatility and trade volume; despite the strong downwards momentum in the market, I noticed that there was a recurring mean-reversion pattern that occurred in market open. If $SPY gapped down, the index would mean-revert in the inverse direction at market open more often than not; likewise, if $SPY gapped up, it would mean-revert downward. A figure representing the historical negative correlation between credit spread and $SPY price is shown below.
+<img src="V1/corr.png" alt="Spread vs Price"></img>
 <br>
 <p>To account for this phenomenon I primarily offer 3 similar and mutually-inclusive explanations:
 <ol>
