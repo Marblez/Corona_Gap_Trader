@@ -19,7 +19,7 @@ The initial version of the algorithm can be thought of as a simplistic implement
 
 <h3>Alpha V1 Evaluation </h3>
 ![Stats Graph]
-(V1/stats.png)
+(stats.png)
 The results of the V1 were surprisingly good for February 2020 - March 2020, boasting a monthly return approaching 5.5% (101% APR) and a 7.2 sharpe ratio (wtf).
 ![Month Test]
 (https://github.com/Marblez/Corona_Gap_Trader/blob/master/V1/monthtest.png)
